@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>songs.html</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #000000; background-color: #ffffff; font-family: monospace}
+pre {color: #000000; background-color: #ffffff; font-family: monospace}
+table {color: #404040; background-color: #e9e8e2; font-family: monospace}
+.block-comment {color: #969696}
+.ST2 {color: #c0c0c0}
+.ST3 {color: #c0c0c0; background-color: #e3f2e1}
+.ST4 {color: #007c00; background-color: #e3f2e1}
+.ST5 {background-color: #e3f2e1}
+.ST7 {color: #969696; background-color: #e3f2e1}
+.ST0 {color: #628fb5; background-color: #f9f4e0}
+.tag {color: #336bdd}
+.ST1 {color: #287bde}
+.argument {color: #ce54b8}
+.highlight-caret-row {background-color: #f9f4e0}
+.value {color: #1e9347}
+.ST8 {color: #1e9347; background-color: #e3f2e1}
+.ST6 {color: #0000ff; background-color: #e3f2e1}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">/Users/C++/Test6/src/main/webapp/songs.html</td></tr></table>
+<pre>
+<span class="ST0">&lt;!DOCTYPE</span> <span class="ST0">html</span><span class="ST0">&gt;</span>
+<span class="block-comment">&lt;!--</span>
+<span class="block-comment">Click </span><span class="ST1">nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt</span><span class="block-comment"> to change this license</span>
+<span class="block-comment">Click </span><span class="ST1">nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html</span><span class="block-comment"> to edit this template</span>
+<span class="block-comment">--&gt;</span>
+<span class="tag">&lt;</span><span class="tag">html</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;</span><span class="tag">head</span><span class="tag">&gt;</span>
+        <span class="tag">&lt;</span><span class="tag">title</span><span class="tag">&gt;</span>Songs<span class="tag">&lt;/</span><span class="tag">title</span><span class="tag">&gt;</span>
+        <span class="tag">&lt;</span><span class="tag">style</span><span class="tag">&gt;</span>
+            <span class="ST4">.</span><span class="ST4">container</span> <span class="ST5">{</span>
+                <span class="ST6">display</span><span class="ST5">:</span> <span class="ST5">flex</span><span class="ST5">;</span>
+                <span class="ST6">gap</span><span class="ST5">:</span> <span class="ST5">10px</span><span class="ST5">;</span>
+                <span class="ST6">width</span><span class="ST5">:</span> <span class="ST5">100%</span><span class="ST5">;</span>
+            <span class="ST5">}</span>
+            <span class="ST4">.</span><span class="ST4">background</span> <span class="ST5">{</span>
+                <span class="ST6">background-color</span><span class="ST5">:</span> <span class="ST5">aliceblue</span><span class="ST5">;</span>
+            <span class="ST5">}</span>
+            <span class="ST4">.</span><span class="ST4">herSongs</span><span class="ST5">,</span>
+            <span class="ST4">.</span><span class="ST4">ourSongs</span><span class="ST5">,</span>
+            <span class="ST4">.</span><span class="ST4">hisSongs</span> <span class="ST5">{</span>
+                <span class="ST6">background-color</span><span class="ST5">:</span> <span class="ST5">darkseagreen</span><span class="ST5">;</span>
+                <span class="ST6">font-size</span><span class="ST5">:</span> <span class="ST5">2em</span><span class="ST5">;</span>
+                <span class="ST6">text-align</span><span class="ST5">:</span> <span class="ST5">center</span><span class="ST5">;</span>
+                <span class="ST6">flex</span><span class="ST5">:</span> <span class="ST5">1</span><span class="ST5">;</span> <span class="ST7">/* This ensures equal width for all divs */</span>
+                <span class="ST6">padding</span><span class="ST5">:</span> <span class="ST5">10px</span><span class="ST5">;</span>
+                <span class="ST6">box-sizing</span><span class="ST5">:</span> <span class="ST5">border-box</span><span class="ST5">;</span> <span class="ST7">/* Ensures padding doesn&#39;t overflow */</span>
+            <span class="ST5">}</span>
+
+            <span class="ST4">.</span><span class="ST4">herSongs</span> <span class="ST5">{</span>
+                <span class="ST6">background-color</span><span class="ST5">:</span> <span class="ST5">darkseagreen</span><span class="ST5">;</span>
+            <span class="ST5">}</span>
+
+            <span class="ST4">h1</span> <span class="ST5">{</span>
+                <span class="ST6">background-color</span><span class="ST5">:</span> <span class="ST5">darkblue</span><span class="ST5">;</span>
+                <span class="ST6">color</span><span class="ST5">:</span> <span class="ST5">white</span><span class="ST5">;</span>
+                <span class="ST6">display</span><span class="ST5">:</span> <span class="ST5">inline</span><span class="ST5">;</span>
+                <span class="ST6">padding</span><span class="ST5">:</span> <span class="ST5">5px</span><span class="ST5">;</span>
+            <span class="ST5">}</span>
+
+            <span class="ST4">.</span><span class="ST4">ourSongs</span> <span class="ST5">{</span>
+                <span class="ST6">background-color</span><span class="ST5">:</span> <span class="ST5">cornflowerblue</span><span class="ST5">;</span>
+            <span class="ST5">}</span>
+
+            <span class="ST4">.</span><span class="ST4">hisSongs</span> <span class="ST5">{</span>
+                <span class="ST6">background-color</span><span class="ST5">:</span> <span class="ST5">darkseagreen</span><span class="ST5">;</span>
+            <span class="ST5">}</span>
+
+            <span class="ST4">button</span> <span class="ST5">{</span>
+                <span class="ST6">margin-top</span><span class="ST5">:</span> <span class="ST5">20px</span><span class="ST5">;</span>
+            <span class="ST5">}</span>
+        <span class="tag">&lt;/</span><span class="tag">style</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;/</span><span class="tag">head</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;</span><span class="tag">body</span> <span class="argument">class</span><span class="argument">=</span><span class="value">&quot;background&quot;</span><span class="tag">&gt;</span>
+        <span class="tag">&lt;</span><span class="tag">div</span> <span class="argument">class</span><span class="argument">=</span><span class="value">&quot;container&quot;</span><span class="tag">&gt;</span>
+            <span class="block-comment">&lt;!-- her songs --&gt;</span>
+            <span class="tag">&lt;</span><span class="tag">div</span> <span class="argument">class</span><span class="argument">=</span><span class="value">&quot;herSongs&quot;</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">h1</span><span class="tag">&gt;</span>Your songs bonita!<span class="tag">&lt;/</span><span class="tag">h1</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">p</span><span class="tag">&gt;</span><span class="tag">&lt;</span><span class="tag">a</span> <span class="argument">href</span><span class="argument">=</span><span class="value">&quot;</span><span class="ST1">https://www.youtube.com/watch?v=B_etSGv8yyg</span><span class="value">&quot;</span><span class="tag">&gt;</span>Manana Voy A Conquistarla!<span class="tag">&lt;/</span><span class="tag">a</span><span class="tag">&gt;</span><span class="tag">&lt;/</span><span class="tag">p</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">p</span><span class="tag">&gt;</span><span class="tag">&lt;</span><span class="tag">a</span> <span class="argument">href</span><span class="argument">=</span><span class="value">&quot;</span><span class="ST1">https://www.youtube.com/watch?v=-RjwFR6H7_w</span><span class="value">&quot;</span><span class="tag">&gt;</span>Regalo de Dios<span class="tag">&lt;/</span><span class="tag">a</span><span class="tag">&gt;</span><span class="tag">&lt;/</span><span class="tag">p</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">p</span><span class="tag">&gt;</span><span class="tag">&lt;</span><span class="tag">a</span> <span class="argument">href</span><span class="argument">=</span><span class="value">&quot;</span><span class="ST1">https://www.youtube.com/watch?v=a_wBQrUdcvk</span><span class="value">&quot;</span><span class="tag">&gt;</span>Lo Tienes Todo<span class="tag">&lt;/</span><span class="tag">a</span><span class="tag">&gt;</span><span class="tag">&lt;/</span><span class="tag">p</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">p</span><span class="tag">&gt;</span><span class="tag">&lt;</span><span class="tag">a</span> <span class="argument">href</span><span class="argument">=</span><span class="value">&quot;</span><span class="ST1">https://www.youtube.com/watch?v=pnOP7wbPXqY</span><span class="value">&quot;</span><span class="tag">&gt;</span>Tu<span class="tag">&lt;/</span><span class="tag">a</span><span class="tag">&gt;</span><span class="tag">&lt;/</span><span class="tag">p</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">p</span><span class="tag">&gt;</span><span class="tag">&lt;</span><span class="tag">a</span> <span class="argument">href</span><span class="argument">=</span><span class="value">&quot;</span><span class="ST1">https://www.youtube.com/watch?v=9qqcjBNwyfI</span><span class="value">&quot;</span><span class="tag">&gt;</span>Mi Bonita<span class="tag">&lt;/</span><span class="tag">a</span><span class="tag">&gt;</span><span class="tag">&lt;/</span><span class="tag">p</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">p</span><span class="tag">&gt;</span><span class="tag">&lt;</span><span class="tag">a</span> <span class="argument">href</span><span class="argument">=</span><span class="value">&quot;</span><span class="ST1">https://www.youtube.com/watch?v=597KKUepNM4</span><span class="value">&quot;</span><span class="tag">&gt;</span>Todo de Ti<span class="tag">&lt;/</span><span class="tag">a</span><span class="tag">&gt;</span><span class="tag">&lt;/</span><span class="tag">p</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">p</span><span class="tag">&gt;</span><span class="tag">&lt;</span><span class="tag">a</span> <span class="argument">href</span><span class="argument">=</span><span class="value">&quot;</span><span class="ST1">https://www.youtube.com/watch?v=q8ONoWyn_HM</span><span class="value">&quot;</span><span class="tag">&gt;</span>Algo Magico<span class="tag">&lt;/</span><span class="tag">a</span><span class="tag">&gt;</span><span class="tag">&lt;/</span><span class="tag">p</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">p</span><span class="tag">&gt;</span><span class="tag">&lt;</span><span class="tag">a</span> <span class="argument">href</span><span class="argument">=</span><span class="value">&quot;</span><span class="ST1">https://www.youtube.com/watch?v=u7XjPmN-tHw</span><span class="value">&quot;</span><span class="tag">&gt;</span>Just The Way You Are<span class="tag">&lt;/</span><span class="tag">a</span><span class="tag">&gt;</span><span class="tag">&lt;/</span><span class="tag">p</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">p</span><span class="tag">&gt;</span><span class="tag">&lt;</span><span class="tag">a</span> <span class="argument">href</span><span class="argument">=</span><span class="value">&quot;</span><span class="ST1">https://www.youtube.com/watch?v=qarvZMBiyNw</span><span class="value">&quot;</span><span class="tag">&gt;</span>Eres Ese Algo<span class="tag">&lt;/</span><span class="tag">a</span><span class="tag">&gt;</span><span class="tag">&lt;/</span><span class="tag">p</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">button</span> <span class="argument">type</span><span class="argument">=</span><span class="value">&quot;button&quot;</span> <span class="argument">onclick</span><span class="argument">=</span><span class="value">&quot;</span><span class="ST5">alert</span><span class="ST5">(</span><span class="ST8">&#39;</span><span class="ST8">Hey Baby, You are amazing. You got this!</span><span class="ST8">&#39;</span><span class="ST5">)</span><span class="value">&quot;</span><span class="tag">&gt;</span>Try Me If You Feeling Down<span class="tag">&lt;/</span><span class="tag">button</span><span class="tag">&gt;</span>
+            <span class="tag">&lt;/</span><span class="tag">div</span><span class="tag">&gt;</span>
+            <span class="block-comment">&lt;!-- our favorite songs --&gt;</span>
+            <span class="tag">&lt;</span><span class="tag">div</span> <span class="argument">class</span><span class="argument">=</span><span class="value">&quot;ourSongs&quot;</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">h1</span><span class="tag">&gt;</span>Our Favorite Songs<span class="tag">&lt;/</span><span class="tag">h1</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">p</span><span class="tag">&gt;</span><span class="tag">&lt;</span><span class="tag">a</span> <span class="argument">href</span><span class="argument">=</span><span class="value">&quot;</span><span class="ST1">https://www.youtube.com/watch?v=ADzzsO8oRSw</span><span class="value">&quot;</span><span class="tag">&gt;</span>Mi Bendicion<span class="tag">&lt;/</span><span class="tag">a</span><span class="tag">&gt;</span><span class="tag">&lt;/</span><span class="tag">p</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">p</span><span class="tag">&gt;</span><span class="tag">&lt;</span><span class="tag">a</span> <span class="argument">href</span><span class="argument">=</span><span class="value">&quot;</span><span class="ST1">https://www.youtube.com/watch?v=s1XbPXdgEEA</span><span class="value">&quot;</span><span class="tag">&gt;</span>Im gonna be<span class="tag">&lt;/</span><span class="tag">a</span><span class="tag">&gt;</span><span class="tag">&lt;/</span><span class="tag">p</span><span class="tag">&gt;</span>
+            <span class="tag">&lt;/</span><span class="tag">div</span><span class="tag">&gt;</span>
+            <span class="block-comment">&lt;!-- his songs --&gt;</span>
+            <span class="tag">&lt;</span><span class="tag">div</span> <span class="argument">class</span><span class="argument">=</span><span class="value">&quot;hisSongs&quot;</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">h1</span><span class="tag">&gt;</span>His Songs<span class="tag">&lt;/</span><span class="tag">h1</span><span class="tag">&gt;</span>
+                <span class="tag">&lt;</span><span class="tag">p</span><span class="tag">&gt;</span><span class="tag">&lt;</span><span class="tag">a</span> <span class="argument">href</span><span class="argument">=</span><span class="value">&quot;</span><span class="ST1">https://www.youtube.com/watch?v=mcpH7OGpt70</span><span class="value">&quot;</span><span class="tag">&gt;</span>Piel Canela<span class="tag">&lt;/</span><span class="tag">a</span><span class="tag">&gt;</span><span class="tag">&lt;/</span><span class="tag">p</span><span class="tag">&gt;</span>
+            <span class="tag">&lt;/</span><span class="tag">div</span><span class="tag">&gt;</span>
+        <span class="tag">&lt;/</span><span class="tag">div</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;/</span><span class="tag">body</span><span class="tag">&gt;</span>
+<span class="tag">&lt;/</span><span class="tag">html</span><span class="tag">&gt;</span>
+
+
+
+
+</pre></body>
+</html>
